@@ -1,0 +1,10 @@
+{
+  "name": "eslint-config-stripes",
+  "version": "0.0.1",
+  "description": "The shared eslint configuration for stripes applications and extensions",
+  "main": "index.js",
+  "repository": "https://github.com/folio-org/eslint-config-stripes",
+  "author": "Charles Lowell <cowboyd@frontside.io>",
+  "license": "Apache 2.0",
+  "keywords": ["eslint", "eslintconfig"]
+}
