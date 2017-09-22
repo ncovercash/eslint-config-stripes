@@ -6,8 +6,19 @@
   "repository": "https://github.com/folio-org/eslint-config-stripes",
   "author": "Charles Lowell <cowboyd@frontside.io>",
   "license": "Apache 2.0",
-  "keywords": ["eslint", "eslintconfig"],
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
   "peerDependencies": {
-    "eslint": ">= 3"
+    "eslint": "^4.7.2"
+  },
+  "dependencies": {
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-import-resolver-webpack": "^0.8.3",
+    "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.3.0"
   }
 }
