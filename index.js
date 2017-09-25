@@ -14,7 +14,7 @@ module.exports = {
   },
   "rules": {
     "import/extensions": ["warn", "never"],
-    "jsx-a11y/href-no-hash": "off",
+    "jsx-a11y/href-no-hash": "off", // deprecated rule
     "jsx-a11y/label-has-for": "off",
     "jsx-a11y/no-noninteractive-tabindex": ["error", {
       "tags": [],
@@ -22,9 +22,12 @@ module.exports = {
     }],
     "max-len": "off",
     "no-console": "off",
+    "no-else-return": "off",
+    "no-nested-ternary": "off",
     "no-param-reassign": ["error", {
       "props": false
     }],
+    "no-plusplus": "off",
     "no-restricted-syntax": ["error", "LabeledStatement", "WithStatement"],
     "no-underscore-dangle": "off",
     "no-unused-vars": ["warn", {
