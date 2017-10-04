@@ -16,6 +16,12 @@ module.exports = {
     "import/extensions": ["warn", "never"],
     "jsx-a11y/href-no-hash": "off",
     "jsx-a11y/label-has-for": "off",
+    "jsx-a11y/label-has-for": [ "error", {
+      "required": {
+          "every": [ "id" ]
+      },
+      "allowChildren": false,
+    }],
     "jsx-a11y/no-noninteractive-tabindex": ["error", {
       "tags": [],
       "roles": ["tabpanel", "dialog"],
