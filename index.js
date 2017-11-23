@@ -43,7 +43,6 @@ module.exports = {
       "forbid": ["any", "array"]
     }],
     "react/jsx-filename-extension": "off",
-    "react/jsx-wrap-multilines": "off",
     "react/no-array-index-key": "off",
     "react/require-default-props": "off",
     "react/sort-comp": ["warn", {
