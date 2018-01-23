@@ -27,7 +27,7 @@ module.exports = {
       "roles": ["tabpanel", "dialog"],
     }],
     "max-len": "off",
-    "no-console": "off",
+    "no-console": "warn",
     "no-else-return": "off",
     "no-nested-ternary": "off",
     "no-param-reassign": ["error", {
