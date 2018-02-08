@@ -5,7 +5,7 @@ module.exports = {
       "webpack": {}
     },
     "react": {
-      "version": "15.6.1"
+      "version": "16.2.0"
     },
   },
   "env": {
