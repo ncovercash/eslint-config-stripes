@@ -14,6 +14,9 @@ module.exports = {
   },
   "rules": {
     "import/extensions": ["warn", "never"],
+    "import/no-extraneous-dependencies": ["error", {
+      "peerDependencies": true
+    }],
     "jsx-a11y/href-no-hash": "off", // deprecated rule
     "jsx-a11y/label-has-for": "off",
     "jsx-a11y/label-has-for": [ "error", {
