@@ -19,6 +19,10 @@ module.exports = {
       "peerDependencies": true
     }],
     "import/no-unresolved": ["error", { "ignore": ["react", "react-dom"] } ],
+    "jsx-a11y/anchor-is-valid": ["error", {
+      "components": ["Link"],
+      "specialLink": ["to"]
+    }],
     "jsx-a11y/href-no-hash": "off", // deprecated rule
     "jsx-a11y/label-has-for": "off",
     "jsx-a11y/label-has-for": [ "error", {
