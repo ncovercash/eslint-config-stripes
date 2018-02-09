@@ -13,7 +13,7 @@ module.exports = {
     "node": true,
   },
   "rules": {
-    "function-paren-newline": "off",
+    "function-paren-newline": ["error", "consistent"],
     "import/extensions": ["warn", "never"],
     "import/no-extraneous-dependencies": ["error", {
       "peerDependencies": true
@@ -43,15 +43,15 @@ module.exports = {
     "no-unused-vars": ["warn", {
       "argsIgnorePattern": "^_"
     }],
-    "object-curly-newline": "off",
+    "object-curly-newline": ["error", { "consistent": true }],
     "prefer-destructuring": "off",
     "react/forbid-prop-types": ["warn", {
       "forbid": ["any", "array"]
     }],
-    "react/jsx-closing-tag-location": "off",
     "react/jsx-filename-extension": "off",
     "react/jsx-wrap-multilines": "off",
     "react/no-array-index-key": "off",
+    "react/prefer-stateless-function": "off",
     "react/require-default-props": "off",
     "react/sort-comp": ["warn", {
       "order": [
