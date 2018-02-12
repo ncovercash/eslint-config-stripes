@@ -66,5 +66,16 @@ module.exports = {
         "render"
       ]
     }],
-  }
+  },
+  overrides: [
+    {
+      files: ["**/test/**"],
+      rules: {
+        "no-console": "off",
+        // lexically bound "this" prevents access to the Mocha test context.
+        // See https://mochajs.org/#arrow-functions
+        "prefer-arrow-callback": "off",
+      }
+    }
+  ]
 };
