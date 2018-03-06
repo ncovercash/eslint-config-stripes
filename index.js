@@ -38,6 +38,9 @@ module.exports = {
     "max-len": "off",
     "no-console": "warn",
     "no-else-return": "off",
+    "no-multi-spaces": ["error", {
+      "ignoreEOLComments": true,
+    }],
     "no-nested-ternary": "off",
     "no-param-reassign": ["error", {
       "props": false
