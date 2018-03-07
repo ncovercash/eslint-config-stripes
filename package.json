@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": "https://github.com/folio-org/eslint-config-stripes",
   "author": "Charles Lowell <cowboyd@frontside.io>",
-  "license": "Apache 2.0",
+  "license": "Apache-2.0",
   "keywords": [
     "eslint",
     "eslintconfig"
