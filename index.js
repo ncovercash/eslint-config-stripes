@@ -27,7 +27,7 @@ module.exports = {
     "jsx-a11y/label-has-for": "off",
     "jsx-a11y/label-has-for": [ "error", {
       "required": {
-          "every": [ "id" ]
+        "some": [ "nesting", "id" ]
       },
       "allowChildren": false,
     }],
