@@ -13,6 +13,16 @@ module.exports = {
     "node": true,
   },
   "rules": {
+    "comma-dangle": [
+      "error",
+      {
+        "arrays": "only-multiline",
+        "objects": "only-multiline",
+        "imports": "only-multiline",
+        "exports": "only-multiline",
+        "functions": "only-multiline"
+      }
+    ],
     "function-paren-newline": ["error", "consistent"],
     "import/extensions": ["warn", "never"],
     "import/no-extraneous-dependencies": ["error", {
