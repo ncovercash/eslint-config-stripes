@@ -53,6 +53,7 @@ module.exports = {
     }],
     "object-curly-newline": ["error", { "consistent": true }],
     "prefer-destructuring": "off",
+    "quote-props": ["error", "consistent"],
     "react/forbid-prop-types": ["warn", {
       "forbid": ["any", "array"]
     }],
