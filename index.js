@@ -14,6 +14,7 @@ module.exports = {
   },
   "rules": {
     "arrow-body-style": "off",
+    "arrow-parens": "off",
     "comma-dangle": [
       "error",
       {
