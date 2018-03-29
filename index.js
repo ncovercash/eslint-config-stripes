@@ -13,6 +13,7 @@ module.exports = {
     "node": true,
   },
   "rules": {
+    "arrow-body-style": "off",
     "comma-dangle": [
       "error",
       {
