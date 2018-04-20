@@ -48,6 +48,7 @@ module.exports = {
       "tags": [],
       "roles": ["tabpanel", "dialog"],
     }],
+    "linebreak-style": "off",
     "max-len": "off",
     "no-console": "warn",
     "no-else-return": "off",
