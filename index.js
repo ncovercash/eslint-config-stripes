@@ -48,6 +48,12 @@ module.exports = {
       "tags": [],
       "roles": ["tabpanel", "dialog"],
     }],
+    "jsx-a11y/no-autofocus": "off", /* this rule cites https://w3c.github.io/html/sec-forms.html#autofocusing-a-form-control-the-autofocus-attribute
+                                      which mainly applies to non-SPA's. SPA's like FOLIO have good reason to manually control focus for
+                                      users of Assistive Technology or those who just prefer to navigate using a keyboard alone -
+                                      focus transitions serve as a primary indicator of a change in page context as new
+                                      trees of components mount/dismount.
+                                      */  
     "max-len": "off",
     "no-console": "warn",
     "no-else-return": "off",
