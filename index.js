@@ -54,6 +54,7 @@ module.exports = {
                                       focus transitions serve as a primary indicator of a change in page context as new
                                       trees of components mount/dismount.
                                       */  
+    "key-spacing": "off",
     "linebreak-style": "off",
     "max-len": "off",
     "no-console": "warn",
