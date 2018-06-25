@@ -31,7 +31,7 @@ module.exports = {
     "import/no-extraneous-dependencies": ["error", {
       "peerDependencies": true
     }],
-    "import/no-unresolved": ["error", { "ignore": ["react", "react-dom"] } ],
+    "import/no-unresolved": ["error", { "ignore": ["react", "react-dom", "stripes-config"] } ],
     "jsx-a11y/anchor-is-valid": ["error", {
       "components": ["Link"],
       "specialLink": ["to"]
@@ -53,7 +53,7 @@ module.exports = {
                                       users of Assistive Technology or those who just prefer to navigate using a keyboard alone -
                                       focus transitions serve as a primary indicator of a change in page context as new
                                       trees of components mount/dismount.
-                                      */  
+                                      */
     "key-spacing": "off",
     "linebreak-style": "off",
     "max-len": "off",
