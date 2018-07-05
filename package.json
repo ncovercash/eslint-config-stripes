@@ -1,6 +1,6 @@
 {
   "name": "@folio/eslint-config-stripes",
-  "version": "2.0.3",
+  "version": "3.0.0",
   "description": "The shared eslint configuration for stripes applications and extensions",
   "main": "index.js",
   "repository": "https://github.com/folio-org/eslint-config-stripes",
@@ -11,14 +11,18 @@
     "eslintconfig"
   ],
   "peerDependencies": {
-    "eslint": "^4.8.0"
+    "eslint": "^5.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.3.0",
+    "webpack": "^4.16.5"
   },
   "dependencies": {
-    "eslint-config-airbnb": "16.1.0",
-    "eslint-import-resolver-webpack": "0.8.3",
-    "eslint-plugin-babel": "4.1.2",
-    "eslint-plugin-import": "2.8.0",
-    "eslint-plugin-jsx-a11y": "6.0.3",
-    "eslint-plugin-react": "7.9.1"
+    "eslint-config-airbnb": "17.1.0",
+    "eslint-import-resolver-webpack": "0.10.1",
+    "eslint-plugin-babel": "5.1.0",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-jsx-a11y": "6.1.1",
+    "eslint-plugin-react": "7.11.0"
   }
 }
