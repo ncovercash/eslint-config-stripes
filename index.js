@@ -56,6 +56,7 @@ module.exports = {
                                       */
     "key-spacing": "off",
     "linebreak-style": "off",
+    "lines-between-class-members": ["error", "always", { "exceptAfterSingleLine": true }],
     "max-len": "off",
     "no-console": "warn",
     "no-else-return": "off",
@@ -73,6 +74,7 @@ module.exports = {
       "argsIgnorePattern": "^_"
     }],
     "object-curly-newline": ["error", { "consistent": true }],
+    "operator-linebreak": ["off"],
     "prefer-destructuring": "off",
     "prefer-template": "off",
     "quote-props": ["error", "consistent"],
