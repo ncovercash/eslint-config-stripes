@@ -1,6 +1,14 @@
 # Change history for eslint-config-stripes
 
+## [3.1.0](https://github.com/folio-org/eslint-config-stripes/tree/v3.1.0) (2018-09-03)
+[Full Changelog](https://github.com/folio-org/eslint-config-stripes/compare/v3.0.0...v3.1.0)
+
+* Turn off `operator-linebreak` rule.
+* Relax `lines-between-class-members` rule.
+
 ## [3.0.0](https://github.com/folio-org/eslint-config-stripes/tree/v3.0.0) (2018-08-14)
+[Full Changelog](https://github.com/folio-org/eslint-config-stripes/compare/v2.0.0...v3.0.0)
+
 * Turn off [the `key-spacing` rule](https://eslint.org/docs/rules/key-spacing). Available from v2.0.1.
 * Add an exception for `stripes-config` in `import/no-unresolved`
 * `eslint` version 5 support
