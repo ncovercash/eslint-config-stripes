@@ -78,6 +78,7 @@ module.exports = {
     "prefer-destructuring": "off",
     "prefer-template": "off",
     "quote-props": ["error", "consistent"],
+    "react/destructuring-assignment": ["off"],
     "react/forbid-prop-types": ["warn", {
       "forbid": ["any", "array"]
     }],
