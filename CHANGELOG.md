@@ -1,5 +1,9 @@
 # Change history for eslint-config-stripes
 
+## 3.3.0 (IN PROGRESS)
+
+* Set `webpack` as a dependency
+
 ## [3.2.0](https://github.com/folio-org/eslint-config-stripes/tree/v3.2.0) (2018-09-12)
 [Full Changelog](https://github.com/folio-org/eslint-config-stripes/compare/v3.1.0...v3.2.0)
 * Turn off `react/destructuring-assignment` rule.
