@@ -1,10 +1,9 @@
 {
   "name": "@folio/eslint-config-stripes",
-  "version": "3.1.1",
+  "version": "3.2.0",
   "description": "The shared eslint configuration for stripes applications and extensions",
   "main": "index.js",
   "repository": "https://github.com/folio-org/eslint-config-stripes",
-  "author": "Charles Lowell <cowboyd@frontside.io>",
   "license": "Apache-2.0",
   "keywords": [
     "eslint",

@@ -1,8 +1,8 @@
 # Change history for eslint-config-stripes
 
-## 3.2.0 (IN PROGRESS)
-
-* Turn off `react/destructuring-assignment` rule. Available from v3.1.1.
+## [3.2.0](https://github.com/folio-org/eslint-config-stripes/tree/v3.2.0) (2018-09-12)
+[Full Changelog](https://github.com/folio-org/eslint-config-stripes/compare/v3.1.0...v3.2.0)
+* Turn off `react/destructuring-assignment` rule.
 
 ## [3.1.0](https://github.com/folio-org/eslint-config-stripes/tree/v3.1.0) (2018-09-03)
 [Full Changelog](https://github.com/folio-org/eslint-config-stripes/compare/v3.0.0...v3.1.0)
@@ -21,4 +21,3 @@
 [Full Changelog](https://github.com/folio-org/eslint-config-stripes/compare/v1.1.1...v2.0.0)
 
 * First version to pin a specific version of the `eslint-config-airbnb` dependency, to avoid nasty surprises where the rules change on their own.
-
