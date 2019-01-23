@@ -1,5 +1,10 @@
 # Change history for eslint-config-stripes
 
+## [4.0.1](https://github.com/folio-org/eslint-config-stripes/tree/v4.0.1) (2019-01-23)
+[Full Changelog](https://github.com/folio-org/eslint-config-stripes/compare/v4.0.0...v4.0.1)
+
+* Fix `package.json` version mismatch
+
 ## [4.0.0](https://github.com/folio-org/eslint-config-stripes/tree/v4.0.0) (2019-01-17)
 [Full Changelog](https://github.com/folio-org/eslint-config-stripes/compare/v3.2.1...v4.0.0)
 
