@@ -1,5 +1,12 @@
 # Change history for eslint-config-stripes
 
+## [4.0.0](https://github.com/folio-org/eslint-config-stripes/tree/v4.0.0) (2019-01-17)
+[Full Changelog](https://github.com/folio-org/eslint-config-stripes/compare/v3.2.1...v4.0.0)
+
+* Upgrade `eslint-plugin-babel` https://github.com/babel/eslint-plugin-babel/compare/v5.1.0...v5.3.0
+* Upgrade `eslint-plugin-jsx-a11y` https://github.com/evcohen/eslint-plugin-jsx-a11y/compare/v6.1.1...v6.1.2
+* Upgrade `eslint-plugin-react` https://github.com/yannickcr/eslint-plugin-react/compare/v7.11.0...v7.12.4
+
 ## [3.2.1](https://github.com/folio-org/eslint-config-stripes/tree/v3.2.1) (2018-09-14)
 [Full Changelog](https://github.com/folio-org/eslint-config-stripes/compare/v3.2.0...v3.2.1)
 
