@@ -1,5 +1,8 @@
 # Change history for eslint-config-stripes
 
+## [4.1.0](https://github.com/folio-org/eslint-config-stripes/tree/v4.1.0) (2019-01-03)
+* Add eslint [rules](https://reactjs.org/docs/hooks-rules.html) for react hooks (ESCONF-2)
+
 ## [4.0.1](https://github.com/folio-org/eslint-config-stripes/tree/v4.0.1) (2019-01-23)
 [Full Changelog](https://github.com/folio-org/eslint-config-stripes/compare/v4.0.0...v4.0.1)
 

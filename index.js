@@ -12,6 +12,7 @@ module.exports = {
     "browser": true,
     "node": true,
   },
+  "plugins": ["react-hooks"],
   "rules": {
     "arrow-body-style": "off",
     "arrow-parens": "off",
@@ -37,7 +38,6 @@ module.exports = {
       "specialLink": ["to"]
     }],
     "jsx-a11y/href-no-hash": "off", // deprecated rule
-    "jsx-a11y/label-has-for": "off",
     "jsx-a11y/label-has-for": [ "error", {
       "required": {
         "some": [ "nesting", "id" ]
@@ -95,6 +95,8 @@ module.exports = {
         "render"
       ]
     }],
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
   },
   overrides: [
     {
