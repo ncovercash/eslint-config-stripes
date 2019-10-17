@@ -1,5 +1,9 @@
 # Change history for eslint-config-stripes
 
+## 4.3.0 IN PROGRESS
+
+* Security update eslint to >= 6.2.1 or eslint-util >= 1.4.1. Part of STRIPES-648.
+
 ## [4.2.0](https://github.com/folio-org/eslint-config-stripes/tree/v4.2.0) (2019-08-12)
 * Add eslint plugin [eslint-plugin-no-only-tests](https://www.npmjs.com/package/eslint-plugin-no-only-tests) for warning about .only in tests
 
