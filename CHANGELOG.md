@@ -1,5 +1,8 @@
 # Change history for eslint-config-stripes
 
+## [4.3.1](https://github.com/folio-org/eslint-config-stripes/tree/v4.3.1) (2019-10-17)
+* Reverting eslint update since version should be a major bump as it can break when used in workspaces with modules/platforms still referring to eslint 5.x.x. Part of STRIPES-648.
+
 ## [4.3.0](https://github.com/folio-org/eslint-config-stripes/tree/v4.3.0) (2019-10-17)
 * Security update eslint to >= 6.2.1 or eslint-util >= 1.4.1. Part of STRIPES-648.
 
