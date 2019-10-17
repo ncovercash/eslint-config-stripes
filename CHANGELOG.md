@@ -1,6 +1,6 @@
 # Change history for eslint-config-stripes
 
-## 4.2.1 IN PROGRESS
+## 4.3.0 IN PROGRESS
 
 * Security update eslint to >= 6.2.1 or eslint-util >= 1.4.1. Part of STRIPES-648.
 
