@@ -1,7 +1,6 @@
 # Change history for eslint-config-stripes
 
-## 5.0.0 (IN-PROGRESS)
-
+## [5.0.0](https://github.com/folio-org/eslint-config-stripes/tree/v5.0.0) (2019-10-23)
 * Security update eslint to >= 6.2.1 or eslint-util >= 1.4.1. Moved eslint from devDependencies to dependencies. Part of STRIPES-648.
 
 ## [4.3.1](https://github.com/folio-org/eslint-config-stripes/tree/v4.3.1) (2019-10-17)
