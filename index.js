@@ -78,7 +78,7 @@ module.exports = {
     "operator-linebreak": ["off"],
     "prefer-destructuring": "off",
     "prefer-template": "off",
-    "quote-props": ["error", "consistent"],
+    "quote-props": "off",
     "react/destructuring-assignment": ["off"],
     "react/forbid-prop-types": ["warn", {
       "forbid": ["any", "array"]
