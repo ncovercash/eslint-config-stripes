@@ -1,5 +1,8 @@
 # Change history for eslint-config-stripes
 
+## 5.1.0 - IN PROGRESS
+* Turn off `quote-props` rule.
+
 ## [5.0.0](https://github.com/folio-org/eslint-config-stripes/tree/v5.0.0) (2019-10-23)
 * Undo revert of Security update eslint to >= 6.2.1 or eslint-util >= 1.4.1. Releasing as a major version update. Part of STRIPES-648.
 
