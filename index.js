@@ -84,6 +84,7 @@ module.exports = {
       "forbid": ["any", "array"]
     }],
     "react/jsx-filename-extension": "off",
+    "react/jsx-props-no-spreading": "off",
     "react/jsx-wrap-multilines": "off",
     "react/no-array-index-key": "off",
     "react/prefer-stateless-function": "off",
@@ -96,6 +97,7 @@ module.exports = {
         "render"
       ]
     }],
+    "react/static-property-placement": "off",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
   },
