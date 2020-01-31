@@ -1,6 +1,6 @@
 # Change history for eslint-config-stripes
 
-## 5.1.0 - IN PROGRESS
+## [5.1.0](https://github.com/folio-org/eslint-config-stripes/tree/v5.1.0) (2020-01-31)
 * Turn off `quote-props` rule.
 * Turn off and `react/jsx-props-no-spreading` and `react/static-property-placement` rules since they contradict patterns already well-established in our codebases.
 * Establish order for `static-variables` to appear after `static-methods` but before everything else to match our current style since it is now acknowledged by https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-comp.md.
