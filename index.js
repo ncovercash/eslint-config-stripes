@@ -92,6 +92,7 @@ module.exports = {
     "react/sort-comp": ["warn", {
       "order": [
         "static-methods",
+        "static-variables",
         "lifecycle",
         "everything-else",
         "render"
