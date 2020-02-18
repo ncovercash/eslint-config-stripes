@@ -83,6 +83,7 @@ module.exports = {
     "react/forbid-prop-types": ["warn", {
       "forbid": ["any", "array"]
     }],
+    "react/jsx-curly-newline": "off",
     "react/jsx-filename-extension": "off",
     "react/jsx-props-no-spreading": "off",
     "react/jsx-wrap-multilines": "off",
@@ -98,6 +99,7 @@ module.exports = {
         "render"
       ]
     }],
+    "react/state-in-constructor": "off",
     "react/static-property-placement": "off",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
@@ -106,6 +108,7 @@ module.exports = {
     {
       files: ["**/test/**"],
       rules: {
+        "max-classes-per-file": "off",
         "no-console": "off",
         // lexically bound "this" prevents access to the Mocha test context.
         // See https://mochajs.org/#arrow-functions
