@@ -25,5 +25,8 @@
     "eslint-plugin-react": "7.16.0",
     "eslint-plugin-react-hooks": "^2.1.2",
     "webpack": "^4.10.2"
+  },
+  "resolutions": {
+    "serialize-javascript": "^2.1.1"
   }
 }
