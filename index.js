@@ -85,6 +85,7 @@ module.exports = {
     }],
     "react/jsx-curly-newline": "off",
     "react/jsx-filename-extension": "off",
+    "react/jsx-one-expression-per-line": "off",
     "react/jsx-props-no-spreading": "off",
     "react/jsx-wrap-multilines": "off",
     "react/no-array-index-key": "off",
