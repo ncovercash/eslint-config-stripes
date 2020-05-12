@@ -1,5 +1,9 @@
 # Change history for eslint-config-stripes
 
+## 5.3.0
+
+Turn off `react/jsx-one-expression-per-line` so we can avoid `{' '}` which is just silly.
+
 ## [5.2.0](https://github.com/folio-org/eslint-config-stripes/tree/v5.2.0) (2020-02-18)
 * Turn off and `react/jsx-curly-newline` and `react/state-in-constructor` rules since they contradict patterns already well-established in our codebases.
 * Turn off `max-classes-per-file` rule for test files since it is perfectly acceptable and common to have multiple classes in a single test file (for example: interactor files).
