@@ -16,7 +16,7 @@ module.exports = {
   "rules": {
     "arrow-body-style": "off",
     "arrow-parens": "off",
-    "camelcase": ["error", { allow: ["^UNSAFE_"] }],
+    "camelcase": ["error", { properties: "never", allow: ["^UNSAFE_"] }],
     "class-methods-use-this": "off",
     "comma-dangle": [
       "error",
