@@ -1,5 +1,9 @@
 # Change history for eslint-config-stripes
 
+## [5.4.0](#) (UNRELEASED)
+
+* add Acquisitions-UI config
+
 ## [5.3.0](https://github.com/folio-org/eslint-config-stripes/tree/v5.3.0) (2020-12-09)
 [Full Changelog](https://github.com/folio-org/eslint-config-stripes/compare/v5.2.0...v5.3.0)
 
