@@ -59,6 +59,7 @@ module.exports = {
     "linebreak-style": "off",
     "lines-between-class-members": ["error", "always", { "exceptAfterSingleLine": true }],
     "max-len": "off",
+    "no-await-in-loop": "off",
     "no-console": "warn",
     "no-else-return": "off",
     "no-multiple-empty-lines": "off",
