@@ -90,9 +90,11 @@ module.exports = {
     "react/jsx-filename-extension": "off",
     "react/jsx-one-expression-per-line": "off",
     "react/jsx-props-no-spreading": "off",
+    "react/jsx-uses-react": "off",
     "react/jsx-wrap-multilines": "off",
     "react/no-array-index-key": "off",
     "react/prefer-stateless-function": "off",
+    "react/react-in-jsx-scope": "off",
     "react/require-default-props": "off",
     "react/sort-comp": ["warn", {
       "order": [
@@ -107,6 +109,7 @@ module.exports = {
     "react/static-property-placement": "off",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
+
   },
   overrides: [
     {
