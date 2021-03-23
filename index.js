@@ -75,7 +75,8 @@ module.exports = {
     "no-restricted-syntax": ["error", "LabeledStatement", "WithStatement"],
     "no-underscore-dangle": "off",
     "no-unused-vars": ["warn", {
-      "argsIgnorePattern": "^_"
+      "argsIgnorePattern": "^_",
+      "varsIgnorePattern": "React"
     }],
     "object-curly-newline": ["error", { "consistent": true }],
     "operator-linebreak": ["off"],
