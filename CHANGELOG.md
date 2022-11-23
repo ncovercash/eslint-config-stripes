@@ -1,5 +1,10 @@
 # Change history for eslint-config-stripes
 
+
+## [6.3.1] IN PROGRESS
+
+* Avoid enhanced-resolve ~5.11.0 due to incompatibilities with webpack-virtual-config. Refs ESCONF-26.
+
 ## [6.3.0](https://github.com/folio-org/eslint-config-stripes/tree/v6.3.0) (2022-10-13)
 [Full Changelog](https://github.com/folio-org/eslint-config-stripes/compare/v6.2.0...v6.3.0)
 
