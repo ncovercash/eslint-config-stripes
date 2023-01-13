@@ -112,7 +112,7 @@ module.exports = {
     "react/static-property-placement": "off",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
-
+    "semi": "off",
   },
   overrides: [
     {
