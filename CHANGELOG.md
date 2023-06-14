@@ -1,5 +1,13 @@
 # Change history for eslint-config-stripes
 
+## 7.0.0
+
+* *BREAKING* eslint 8
+* *BREAKING* eslint-config-airbnb 19
+* *BREAKING* eslint-jest-dom 5
+* *BREAKING* typescript 5
+* eslint-plugin-import 2.27, eslint-plugin-jsx-a11y 6.7, eslint-plugin-react 7.32
+
 ## 6.5.0 IN PROGRESS
 
 * Unlock `webpack` from `~5.68.0`. Refs STCLI-222.
